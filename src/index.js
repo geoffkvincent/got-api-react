@@ -7,7 +7,9 @@ import store from './store'
 import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.render (
+  <Provider>
   <App />, 
+  </Provider>
 document.getElementById('root'));
 
 
