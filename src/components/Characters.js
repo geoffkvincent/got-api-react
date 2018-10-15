@@ -13,7 +13,11 @@ class Characters extends React.Component {
   render() {
     const {characters} = this.state
     return (
-      
+      characters.map(c =>
+        <Card key={c.id}>
+        <Card.Title>{c.name}</Card.Title>
+        </Card>
+      )
     )
   }
 }
