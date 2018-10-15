@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import {Grid, Header, Card} from 'semantic-ui-react'
 
 class Characters extends React.Component {
   state = { characters: [] }
