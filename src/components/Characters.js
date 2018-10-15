@@ -11,8 +11,9 @@ class Characters extends React.Component {
   }
 
   render() {
+    const {characters} = this.state
     return (
-      null
+      
     )
   }
 }
